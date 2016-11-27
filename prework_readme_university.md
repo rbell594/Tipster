@@ -1,10 +1,10 @@
-# Pre-work - *Name of App Here*
+# Pre-work - *tipster*
 
-**Name of your app** is a tip calculator application for iOS.
+**tipster** is a tip calculator application for iOS.
 
-Submitted by: **Your Name Here**
+Submitted by: **Rodrigo Bell**
 
-Time spent: **X** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
