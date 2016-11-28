@@ -14,6 +14,7 @@
 		1A1849731DEB97170038FDDB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A1849711DEB97170038FDDB /* LaunchScreen.storyboard */; };
 		1A18497E1DEB97170038FDDB /* tipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18497D1DEB97170038FDDB /* tipsterTests.swift */; };
 		1A1849891DEB97170038FDDB /* tipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1849881DEB97170038FDDB /* tipsterUITests.swift */; };
+		1A1BA7D21DEBD3CC0049985E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		1A1849841DEB97170038FDDB /* tipsterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A1849881DEB97170038FDDB /* tipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsterUITests.swift; sourceTree = "<group>"; };
 		1A18498A1DEB97170038FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				1A1849681DEB97170038FDDB /* AppDelegate.swift */,
 				1A18496A1DEB97170038FDDB /* ViewController.swift */,
+				1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */,
 				1A18496C1DEB97170038FDDB /* Main.storyboard */,
 				1A18496F1DEB97170038FDDB /* Assets.xcassets */,
 				1A1849711DEB97170038FDDB /* LaunchScreen.storyboard */,
@@ -261,6 +264,7 @@
 			files = (
 				1A18496B1DEB97170038FDDB /* ViewController.swift in Sources */,
 				1A1849691DEB97170038FDDB /* AppDelegate.swift in Sources */,
+				1A1BA7D21DEBD3CC0049985E /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -503,6 +507,7 @@
 				1A18498F1DEB97170038FDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A1849901DEB97170038FDDB /* Build configuration list for PBXNativeTarget "tipsterTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +516,7 @@
 				1A1849921DEB97170038FDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1A1849931DEB97170038FDDB /* Build configuration list for PBXNativeTarget "tipsterUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +525,7 @@
 				1A1849951DEB97170038FDDB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
