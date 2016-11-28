@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     let userDefaults = UserDefaults.standard
     let formatter = NumberFormatter()
+    let locale = Locale.current
     
     let tipPercents = [0.18, 0.2, 0.25]
     var bill : Double = 0.00
@@ -29,6 +30,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         tipControl.selectedSegmentIndex = userDefaults.integer(forKey: "tipDefault")
+        
+        billField.placeholder = "\(locale.currencySymbol!)0.00"
         billField.becomeFirstResponder()
         billField.addTarget(self, action: #selector(billFieldDidChange), for: .editingChanged)
 
@@ -50,7 +53,7 @@ class ViewController: UIViewController {
         total = bill + tip
         
         formatter.numberStyle = .currencyAccounting
-        formatter.currencySymbol = "$"
+        formatter.currencySymbol = locale.currencySymbol
         formatter.maximumFractionDigits = 2
         formatter.minimumFractionDigits = 2
         
@@ -63,7 +66,7 @@ class ViewController: UIViewController {
     
     @IBAction func calculateTotal(_ sender: AnyObject?) {
         formatter.numberStyle = .currencyAccounting
-        formatter.currencySymbol = "$"
+        formatter.currencySymbol = locale.currencySymbol
         formatter.maximumFractionDigits = 2
         formatter.minimumFractionDigits = 2
         
@@ -101,6 +104,8 @@ class ViewController: UIViewController {
             if (amountString != "") {
                 amountString.remove(at: amountString.startIndex)
                 amountString = amountString.replacingOccurrences(of: ",", with: "")
+                amountString = amountString.replacingOccurrences(of: ".", with: "")
+                amountString = amountString.trimmingCharacters(in: .whitespaces)
                 bill = Double(amountString)!
             } else {
                 bill = 0.00
@@ -116,8 +121,8 @@ extension String {
         
         var number: NSNumber!
         let formatter = NumberFormatter()
+        formatter.locale = Locale.current
         formatter.numberStyle = .currencyAccounting
-        formatter.currencySymbol = "$"
         formatter.maximumFractionDigits = 2
         formatter.minimumFractionDigits = 2
         
