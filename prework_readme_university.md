@@ -21,7 +21,7 @@ The following **optional** features are implemented:
 The following **additional** features are implemented:
 
 - [x] Ability to split total among up to four people.
-- [x] Bill input field with proper currency formatting to match tip, total, and subtotal labels.
+- [x] Bill input field formatting matches that of labels.
 
 ## Video Walkthrough 
 

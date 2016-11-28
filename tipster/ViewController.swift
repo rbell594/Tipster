@@ -102,8 +102,10 @@ class ViewController: UIViewController {
                 amountString.remove(at: amountString.startIndex)
                 amountString = amountString.replacingOccurrences(of: ",", with: "")
                 bill = Double(amountString)!
-                calculateTip(nil)
+            } else {
+                bill = 0.00
             }
+            calculateTip(nil)
         }
     }
 }
