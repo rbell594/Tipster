@@ -20,7 +20,8 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [x] Split total among up to four people.
+- [x] Ability to split total among up to four people.
+- [x] Bill input field with proper currency formatting to match tip, total, and subtotal labels.
 
 ## Video Walkthrough 
 
@@ -32,7 +33,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Implementing a settings page proved more challenging than I thought, especially since I had very little experience with User Defaults.
+Implementing a settings page proved more challenging as I was having trouble understanding how to use User Defaults.
 
 ## License
 
