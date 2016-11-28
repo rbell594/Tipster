@@ -20,7 +20,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Split total among up to four people.
 
 ## Video Walkthrough 
 
@@ -32,7 +32,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Implementing a settings page proved more challenging than I thought, especially since I had very little experience with User Defaults.
 
 ## License
 
