@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         tipControl.selectedSegmentIndex = userDefaults.integer(forKey: "tipDefault")
+        billField.becomeFirstResponder()
     }
     
     override func didReceiveMemoryWarning() {
