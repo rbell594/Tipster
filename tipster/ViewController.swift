@@ -49,6 +49,8 @@ class ViewController: UIViewController {
     @IBAction func calculateTip(_ sender: AnyObject?) {
         let curTip = tipControl.selectedSegmentIndex
         
+        print(bill)
+        
         tip = bill * tipPercents[curTip]
         total = bill + tip
         
@@ -104,7 +106,6 @@ class ViewController: UIViewController {
             if (amountString != "") {
                 amountString.remove(at: amountString.startIndex)
                 amountString = amountString.replacingOccurrences(of: ",", with: "")
-                amountString = amountString.replacingOccurrences(of: ".", with: "")
                 amountString = amountString.trimmingCharacters(in: .whitespaces)
                 bill = Double(amountString)!
             } else {
