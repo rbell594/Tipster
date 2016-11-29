@@ -15,6 +15,7 @@
 		1A18497E1DEB97170038FDDB /* tipsterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A18497D1DEB97170038FDDB /* tipsterTests.swift */; };
 		1A1849891DEB97170038FDDB /* tipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1849881DEB97170038FDDB /* tipsterUITests.swift */; };
 		1A1BA7D21DEBD3CC0049985E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */; };
+		1A1BA7D81DECED7A0049985E /* Settings Filled-20.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1BA7D71DECED7A0049985E /* Settings Filled-20.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1A1849881DEB97170038FDDB /* tipsterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tipsterUITests.swift; sourceTree = "<group>"; };
 		1A18498A1DEB97170038FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		1A1BA7D71DECED7A0049985E /* Settings Filled-20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Settings Filled-20.png"; path = "../../../../../Downloads/Settings Filled-20.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				1A18497C1DEB97170038FDDB /* tipsterTests */,
 				1A1849871DEB97170038FDDB /* tipsterUITests */,
 				1A1849661DEB97170038FDDB /* Products */,
+				1A1BA7D71DECED7A0049985E /* Settings Filled-20.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -238,6 +241,7 @@
 				1A1849731DEB97170038FDDB /* LaunchScreen.storyboard in Resources */,
 				1A1849701DEB97170038FDDB /* Assets.xcassets in Resources */,
 				1A18496E1DEB97170038FDDB /* Main.storyboard in Resources */,
+				1A1BA7D81DECED7A0049985E /* Settings Filled-20.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
