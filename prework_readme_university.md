@@ -22,6 +22,7 @@ The following **additional** features are implemented:
 
 - [x] Ability to split total among up to four people.
 - [x] Bill input field formatting matches that of labels.
+- [x] App icon and launchscreen.
 
 ## Video Walkthrough 
 

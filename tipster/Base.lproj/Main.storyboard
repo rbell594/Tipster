@@ -144,7 +144,7 @@
                         <gestureRecognizers/>
                     </view>
                     <navigationItem key="navigationItem" title="Tipster" id="yf1-dh-8Lk">
-                        <barButtonItem key="rightBarButtonItem" image="Settings Filled-20.png" id="sya-w8-UiV">
+                        <barButtonItem key="rightBarButtonItem" image="gear_icon.png" id="sya-w8-UiV">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <segue destination="T4V-pz-dBT" kind="push" id="k1W-Xd-TCK"/>
@@ -232,7 +232,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Settings Filled-20.png" width="20" height="20"/>
+        <image name="gear_icon.png" width="20" height="20"/>
     </resources>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedStatusBarMetrics key="statusBar"/>
