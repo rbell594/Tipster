@@ -16,8 +16,6 @@
 		1A1849891DEB97170038FDDB /* tipsterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1849881DEB97170038FDDB /* tipsterUITests.swift */; };
 		1A1BA7D21DEBD3CC0049985E /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */; };
 		1A1BA7D81DECED7A0049985E /* gear_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A1BA7D71DECED7A0049985E /* gear_icon.png */; };
-		1A91DEA61DEE4D5F00C88A81 /* 120_app_icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91DEA51DEE4D5F00C88A81 /* 120_app_icon2.png */; };
-		1A91DEA81DEE4E4600C88A81 /* 120_app_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91DEA71DEE4E4600C88A81 /* 120_app_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,8 +51,6 @@
 		1A18498A1DEB97170038FDDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A1BA7D11DEBD3CC0049985E /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		1A1BA7D71DECED7A0049985E /* gear_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gear_icon.png; path = ../../../../../Downloads/gear_icon.png; sourceTree = "<group>"; };
-		1A91DEA51DEE4D5F00C88A81 /* 120_app_icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120_app_icon2.png; path = ../../../../../Downloads/120_app_icon2.png; sourceTree = "<group>"; };
-		1A91DEA71DEE4E4600C88A81 /* 120_app_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 120_app_icon.png; path = ../../../../../Downloads/120_app_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +135,6 @@
 			isa = PBXGroup;
 			children = (
 				1A1BA7D71DECED7A0049985E /* gear_icon.png */,
-				1A91DEA71DEE4E4600C88A81 /* 120_app_icon.png */,
-				1A91DEA51DEE4D5F00C88A81 /* 120_app_icon2.png */,
 			);
 			name = Assets;
 			sourceTree = "<group>";
@@ -254,9 +248,7 @@
 			files = (
 				1A1849731DEB97170038FDDB /* LaunchScreen.storyboard in Resources */,
 				1A1849701DEB97170038FDDB /* Assets.xcassets in Resources */,
-				1A91DEA81DEE4E4600C88A81 /* 120_app_icon.png in Resources */,
 				1A18496E1DEB97170038FDDB /* Main.storyboard in Resources */,
-				1A91DEA61DEE4D5F00C88A81 /* 120_app_icon2.png in Resources */,
 				1A1BA7D81DECED7A0049985E /* gear_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
